@@ -9,7 +9,7 @@ span:not([class*='spinner_'], [class*='spinnerItem']) {
 body,
 #{cls('mount')},
 #{cls('app.inner')} {
-	background: var(--bg-main);
+	background: transparent !important;
 }
 #{cls('app.bg')} {
 	background: transparent;
